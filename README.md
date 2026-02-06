@@ -1,12 +1,57 @@
-# CodeIgniter-Bootstrap
+Project Name
+post.test
 
-This is admin template ready for CodeIgniter development. The specification is :
-1. CodeIgniter framework version 3.1.4, http://codeigniter.com
-2. Integrated with HMVC, https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc
-3. Integrated with ion_auth, http://benedmunds.com/ion_auth/
-4. AdminLTE theme, https://github.com/almasaeed2010/AdminLTE
+Simple setup instructions for the project.
 
-I also add one user module with CRUD capability ( add user, edit user, delete user, change password ) and login module, of course. You can use my code and edit it by yourself. For demo you can try it at http://codeigniter-bootstrap.abosmond.xyz/, username : administrator, password : password.
-If you have any question, just pull requests or contact me at abosmond86@gmail.com. 
+Table of Contents
 
-Happy coding,
+Requirements
+
+Setup Instructions
+
+1. Create Database
+
+2. Run SQL Scripts
+
+3. Configure Database Connection
+
+4. Access the Project
+
+5. Login
+
+Requirements
+
+PHP 5.6 (minimum)
+
+PostgreSQL v13
+
+Setup Instructions
+1. Create Database
+
+Create a new database according to your project requirements.
+
+2. Run SQL Scripts
+
+Execute the SQL files located in the sql folder for your database service.
+
+For PostgreSQL v13, run these scripts inside the database you just created.
+
+3. Configure Database Connection
+
+Edit the database configuration file:
+
+application/config/database.php
+
+
+Update it with your database name, username, password, and host.
+
+4. Access the Project
+
+Open your browser and navigate to the root URL based on your project folder name.
+
+5. Login
+
+Use the default administrator credentials to log in:
+
+Username: administrator
+Password: password
